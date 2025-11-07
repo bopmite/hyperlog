@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+bin/
+
+# Binary
+hyperlog
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Libraries
+include/
+
+.vscode
