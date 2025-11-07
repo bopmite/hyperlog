@@ -6,11 +6,11 @@ Hyperlog is a minimal, high‑performance write‑ahead log server for productio
 
 Only one endpoint exists right now:
 
-````md
+```md
 POST /append
 {
-"key": "foo",
-"data": "bar"
+  "key": "foo",
+  "data": "bar"
 }```
 
 What it does:
