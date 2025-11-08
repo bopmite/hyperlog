@@ -2,11 +2,11 @@
 #include <cstddef>
 #include <cstdint>
 
-namespace util
+namespace hyperlog::util
 {
-class CRC32C
-{
- public:
-  static uint32_t compute(const void* data, size_t length);
-};
+  class CRC32C
+  {
+  public:
+    static uint32_t compute(const void *data, size_t length);
+  };
 }

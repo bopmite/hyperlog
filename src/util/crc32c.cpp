@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <immintrin.h>
 
-namespace util
+namespace hyperlog::util
 {
 uint32_t CRC32C::compute(const void* data, size_t length)
 {

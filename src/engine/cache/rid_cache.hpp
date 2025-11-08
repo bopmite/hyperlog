@@ -16,8 +16,8 @@ namespace hyperlog::rid_cache
       uint64_t value;
     };
 
-    void set(const std::string& key, uint64_t value);
-    CacheResponse get(const std::string& key);
+    void set(const std::string &key, uint64_t value);
+    CacheResponse get(const std::string &key);
 
   private:
     std::unordered_map<std::string, uint64_t> dict_;
